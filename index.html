@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="index.js"></script>
+    <title>Music player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="music__container">
+        <audio id="audio" src=""></audio>
+        <h2 class="music__title">Apple music</h2>
+        <div class="music__image"></div>
+        <div class="music__player">
+            <div class="progress__bar">
+                <div class="progress"></div>
+            </div>
+            <button id="prev" class="action">
+                <i class="fa fa-backward" aria-hidden="true"></i>
+            </button>
+            <button id="play" class="action">
+                <i class="fa fa-play" aria-hidden="true"></i>
+            </button>
+            <button id="next" class="action">
+                <i class="fa fa-forward" aria-hidden="true"></i>  
+            </button>
+            <button class="speed"> <span>1.0x</span> </button>
+        </div>
+    </div>
+    
+</body>
+</html>

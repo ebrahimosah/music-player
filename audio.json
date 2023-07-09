@@ -1,0 +1,19 @@
+{
+    "songs":[
+        {
+            "title": "Jericho",
+            "audio": "audio/Iniko-Jericho-(BeatzJam.com).mp3",
+            "cover": "photos/iniko.png"
+        },
+        {
+            "title":"day light",
+            "audio":"audio/David_Kushner_-_Daylight_CeeNaija.com_.mp3",
+            "cover":"photos/david_kushner.png"
+        },
+        {
+            "title":"sparky",
+            "audio":"audio/Santi-Sparky-(TrendyBeatz.com).mp3",
+            "cover":"photos/santi.png"
+        }
+    ]
+}
