@@ -10,26 +10,69 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <div class="music__container">
-        <audio id="audio" src=""></audio>
-        <h2 class="music__title">Apple music</h2>
-        <div class="music__image"></div>
-        <div class="music__player">
-            <div class="progress__bar">
-                <div class="progress"></div>
-            </div>
-            <button id="prev" class="action">
-                <i class="fa fa-backward" aria-hidden="true"></i>
-            </button>
-            <button id="play" class="action">
-                <i class="fa fa-play" aria-hidden="true"></i>
-            </button>
-            <button id="next" class="action">
-                <i class="fa fa-forward" aria-hidden="true"></i>  
-            </button>
-            <button class="speed"> <span>1.0x</span> </button>
-        </div>
-    </div>
+    <main class="home">
+        <section class="search__section"> 
+            <section class="search__container sm-flow">
+                <h2><i class="fa fa-podcast" aria-hidden="true"></i>Music</h2>
+                <form class="search-form" action="">
+                    <span><i class="fa fa-search" aria-hidden="true"></i></span>
+                    <input type="search" name="search" id="search" class="search" placeholder="search">
+                </form>
     
+                <ul class="xs-flow">
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-play-circle" aria-hidden="true"></i>
+                            <span>listen now</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-th-large" aria-hidden="true"></i>
+                            <span>browse</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                            <span>add playlist</span>
+                        </a>
+                    </li>
+                </ul>                
+            </section>
+        </section>            
+        <section class="music__section">
+            <header>
+                <section class="player ">
+                    <button class="random"><span><i class="fa fa-random" aria-hidden="true"></i></span></button>
+                    <button class="prev scale"><span><i class="fa fa-backward" aria-hidden="true"></i></span></button>
+                    <button class="play scale"><span><i class="fa fa-play" aria-hidden="true"></i></span></button>
+                    <button class="next scale"><span><i class="fa fa-forward" aria-hidden="true"></i></span></button>
+                    <button class="repeat "><span><i class="fa fa-retweet" aria-hidden="true"></i></span></button>
+                </section>
+                <section class="music">
+                    <span class="music--icon"><i class="fa fa-music" aria-hidden="true"></i></span>
+                    <span class="music--podcast"><i class="fa fa-podcast" aria-hidden="true"></i></span>
+                </section>
+                <section class="volume">
+                   <span> <i class="fa fa-volume-off" aria-hidden="true"></i></span>
+                   <input type="range" name="range" id="">
+                </section>
+                <section class="profile xxl-flow-left">
+                    <span><i class="fa fa-commenting" aria-hidden="true"></i></span>
+                    <span><i class="fa fa-list" aria-hidden="true"></i></span>
+                    <span class="user"><i class="fa fa-user-circle" aria-hidden="true"></i></span>
+                </section>
+            </header>
+            <div class="library">
+                <div class="library-music">
+                    <div>
+                        <button class="active">apple music</button>
+                        <button class="">your library</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
