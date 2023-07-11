@@ -45,6 +45,10 @@ body{
     min-height:100vh;
     /* gap:var(--sm-spacer); */
 }
+
+/************ search section **************/
+
+
 .search__section{
     background: #242323;
     color:var(--bg);
@@ -111,6 +115,53 @@ a span{
     min-height:60px;
     background-color: var(--acc);
     color: var(--bg);
+}
+
+@media screen and (max-width: 950px){
+    .home{
+        grid-template-columns: minmax(170px,1.5fr) 3fr;
+    }
+    
+    header{
+        justify-content: space-between;
+        position:relative;
+        padding-inline-start: 0!important;
+        padding-inline-end: 0!important;
+        padding-inline: var(--xs-spacer)!important;
+    }
+    header .player{
+        display:none;
+    }
+    header .volume{
+        display:none;
+    }
+    header .profile>span:nth-child(1),.profile>span:nth-child(2){
+        display: none;
+    }
+    header .music{
+        width:100%;   
+    }
+    .music--icon{
+        margin-right:auto;
+        width:10%;
+        max-width:50px;
+    }
+    .music--podcast{
+        width:90%;
+    }
+    .music--podcast {
+        text-align: center;
+        margin-right: 12px;
+    }
+
+    header .profile{
+        position:absolute;
+        top:0;
+        right:0;
+        margin-top:12px;
+        margin-right: 15px;
+        font-size: 2rem;
+    }
 }
  
 /* player section */
@@ -209,8 +260,13 @@ a span{
     justify-content: flex-end;
     align-items: center;
     min-height:40px;
-    background-color: #6c6a6a;
-    
+    background-color: #6c6a6a;   
+}
+
+@media screen and (max-width: 950px){
+    .library{
+        justify-content: center;
+    }
 }
 
 .library-music{
@@ -227,7 +283,7 @@ a span{
     outline: none;
     background: transparent;
     text-transform: capitalize;
-    padding-inline: var(--xxs-spacer);
+    padding-inline: var(--sm-spacer);
     color:var(--bg);
     min-height: 30px;
 }
