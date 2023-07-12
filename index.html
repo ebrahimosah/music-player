@@ -12,8 +12,39 @@
 <body>
     <main class="home">
         <section class="search__section"> 
+            <div class="menu" aria-hidden="true">
+                <div class="menu-items">
+                    <button class="menu-icon" aria-label="Open navigation" aria-expanded="false"><i class="fa fa-bars" aria-hidden="true"></i></button>
+                    <h2 class="menu-title"><i class="fa fa-podcast" aria-hidden="true"></i>Music</h2>
+                    <button class="menu-profile"><i class="fa fa-user-circle" aria-hidden="true"></i></button>
+                </div>
+                <section class="search__container sm-flow">
+                    <h2 class="title"><i class="fa fa-podcast" aria-hidden="true"></i>Music</h2>
+        
+                    <ul class="xs-flow">
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-play-circle" aria-hidden="true"></i>
+                                <span>listen now</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-th-large" aria-hidden="true"></i>
+                                <span>browse</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                                <span>add playlist</span>
+                            </a>
+                        </li>
+                    </ul>                
+                </section>
+            </div>
             <section class="search__container sm-flow">
-                <h2><i class="fa fa-podcast" aria-hidden="true"></i>Music</h2>
+                <h2 class="title"><i class="fa fa-podcast" aria-hidden="true"></i>Music</h2>
                 <form class="search-form" action="">
                     <span><i class="fa fa-search" aria-hidden="true"></i></span>
                     <input type="search" name="search" id="search" class="search" placeholder="search">
@@ -39,6 +70,16 @@
                         </a>
                     </li>
                 </ul>                
+            </section>
+            <section class="categories">
+                <form class="search-form" action="">
+                    <span><i class="fa fa-search" aria-hidden="true"></i></span>
+                    <input type="search" name="search" id="search" class="search" placeholder="search">
+                </form>
+                browse categories
+                <div class="data">
+                   
+                </div>
             </section>
         </section>            
         <section class="music__section">
@@ -72,6 +113,9 @@
                     </div>
                 </div>
             </div>
+            <section class="categories">
+                browse categories
+            </section>
         </section>
     </main>
 </body>

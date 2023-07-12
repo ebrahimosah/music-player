@@ -45,6 +45,18 @@ body{
     min-height:100vh;
     /* gap:var(--sm-spacer); */
 }
+.menu{
+    display: none;
+}
+@media screen and (max-width: 450px){
+  /* body{
+    display:grid;
+    grid-template-columns: 1fr;
+  } */
+  .home{
+    grid-template-columns: 1fr!important;
+  }
+}
 
 /************ search section **************/
 
@@ -55,6 +67,85 @@ body{
     min-height:100vh;
     padding-top:var(--sm-spacer);
 }
+.search__section .categories{
+    display: none;
+}
+
+@media screen and (max-width:450px){
+    .title{
+        display: none !important;
+    }
+    .search__section{
+        padding-top: 0;
+        min-height: 100vh;
+    }
+    .menu[aria-hidden="true"]{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        width: 100% !important;
+        background:#565555;
+        padding:var(--xs-spacer);
+        position: absolute;
+        top:0;
+        height: 40px;
+        overflow: hidden;
+        transition: height 1s ease-in-out;
+    }
+    .menu[aria-hidden="false"]{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        width: 100% !important;
+        background:#565555;
+        padding:var(--xs-spacer);
+        position: absolute;
+        top:0;
+        height: 100vh;
+        overflow: hidden;
+        transition: height 1s ease-in-out;
+    }
+    
+    .search__section > .search__container{
+        margin-top:50px;
+        display:none;
+    }
+
+
+    .search__section .categories{
+        margin-top:50px;
+        display: grid;
+        padding:var(--sm-spacer);
+    }
+    .data{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        gap:var(--xs-spacer);
+        place-items: center;
+    }
+   
+
+    .menu-title{
+        font-size: 1.3rem;
+    }
+    .menu-items{
+        display: flex!important;
+        justify-content: space-between;
+        align-items: center;
+        width:100%;
+    }
+    .menu-items button{
+        background: transparent;
+        border:none;
+        outline: none;
+        font-size: 1.4rem;
+        color:var(--accent);
+    }
+    .menu-icon{
+        font-size: 1.2rem !important;
+    }
+}
+
 .search__container{
     width:80%;
     margin:0 auto;
@@ -104,6 +195,16 @@ a span{
     min-height:100vh;
 }
 
+@media screen and (max-width:450px){
+   
+    .music__section{
+        display: none!important;
+    }
+    .search__container{
+        width:90%;
+    }
+   
+}
 /************* header styles **********/
 .music__section header{
     /* padding:var(--sm-spacer); */
