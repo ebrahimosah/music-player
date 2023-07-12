@@ -3,7 +3,7 @@
 *{
     margin:0;
     padding:0;
-    box-sizing: border-box;
+    box-sizing: border-box!important;
 }
 
 :root{
@@ -130,9 +130,18 @@ h1, h2, h3, h4, h5, h6{
     }
     .data{
         display:grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
         gap:var(--xs-spacer);
-        place-items: center;
+       
+    }
+    .data div:nth-child(1){
+        background:var(--accent);
+    }
+    .data div{
+        padding:var(--xs-spacer);
+        background: var(--accent);
+        border-radius: var(--br2);
+        height:100px;
     }
    
 
@@ -412,8 +421,38 @@ a span{
 }
 
 
+.music__section .categories{
+    display:grid;
+    /* padding:7px; */
+    background: #313131;
+    color:var(--bg);
+}
+.center{
+    width:95%;
+    margin:0 auto;
 
+}
+.center h3{
+    padding-block: var(--sm-spacer);
+}
 
+.data-2{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap:15px;
+}
+.data-2 div{
+    min-height: 100px;
+    background: var(--accent);
+    border-radius: var(--br2); 
+}
+.data-2 div h3{
+    margin-inline:var(--sm-spacer);
+}
+.data-2 div span{
+    margin:var(--sm-spacer);
+    padding-block:var(--xs-spacer);
+}
 
 
 

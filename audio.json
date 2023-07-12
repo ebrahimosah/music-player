@@ -1,16 +1,104 @@
 {
     "songs":[
         {
+            "id": 1,
             "title": "Jericho",
             "audio": "audio/Iniko-Jericho-(BeatzJam.com).mp3",
             "cover": "photos/iniko.png"
         },
         {
+            "id": 2,
             "title":"day light",
             "audio":"audio/David_Kushner_-_Daylight_CeeNaija.com_.mp3",
             "cover":"photos/david_kushner.png"
         },
         {
+            "id": 3,
+            "title":"sparky",
+            "audio":"audio/Santi-Sparky-(TrendyBeatz.com).mp3",
+            "cover":"photos/santi.png"
+        },{
+            "id": 1,
+            "title": "Jericho",
+            "audio": "audio/Iniko-Jericho-(BeatzJam.com).mp3",
+            "cover": "photos/iniko.png"
+        },
+        {
+            "id": 2,
+            "title":"day light",
+            "audio":"audio/David_Kushner_-_Daylight_CeeNaija.com_.mp3",
+            "cover":"photos/david_kushner.png"
+        },
+        {
+            "id": 3,
+            "title":"sparky",
+            "audio":"audio/Santi-Sparky-(TrendyBeatz.com).mp3",
+            "cover":"photos/santi.png"
+        },{
+            "id": 1,
+            "title": "Jericho",
+            "audio": "audio/Iniko-Jericho-(BeatzJam.com).mp3",
+            "cover": "photos/iniko.png"
+        },
+        {
+            "id": 2,
+            "title":"day light",
+            "audio":"audio/David_Kushner_-_Daylight_CeeNaija.com_.mp3",
+            "cover":"photos/david_kushner.png"
+        },
+        {
+            "id": 3,
+            "title":"sparky",
+            "audio":"audio/Santi-Sparky-(TrendyBeatz.com).mp3",
+            "cover":"photos/santi.png"
+        },{
+            "id": 1,
+            "title": "Jericho",
+            "audio": "audio/Iniko-Jericho-(BeatzJam.com).mp3",
+            "cover": "photos/iniko.png"
+        },
+        {
+            "id": 2,
+            "title":"day light",
+            "audio":"audio/David_Kushner_-_Daylight_CeeNaija.com_.mp3",
+            "cover":"photos/david_kushner.png"
+        },
+        {
+            "id": 3,
+            "title":"sparky",
+            "audio":"audio/Santi-Sparky-(TrendyBeatz.com).mp3",
+            "cover":"photos/santi.png"
+        },{
+            "id": 1,
+            "title": "Jericho",
+            "audio": "audio/Iniko-Jericho-(BeatzJam.com).mp3",
+            "cover": "photos/iniko.png"
+        },
+        {
+            "id": 2,
+            "title":"day light",
+            "audio":"audio/David_Kushner_-_Daylight_CeeNaija.com_.mp3",
+            "cover":"photos/david_kushner.png"
+        },
+        {
+            "id": 3,
+            "title":"sparky",
+            "audio":"audio/Santi-Sparky-(TrendyBeatz.com).mp3",
+            "cover":"photos/santi.png"
+        },{
+            "id": 1,
+            "title": "Jericho",
+            "audio": "audio/Iniko-Jericho-(BeatzJam.com).mp3",
+            "cover": "photos/iniko.png"
+        },
+        {
+            "id": 2,
+            "title":"day light",
+            "audio":"audio/David_Kushner_-_Daylight_CeeNaija.com_.mp3",
+            "cover":"photos/david_kushner.png"
+        },
+        {
+            "id": 3,
             "title":"sparky",
             "audio":"audio/Santi-Sparky-(TrendyBeatz.com).mp3",
             "cover":"photos/santi.png"
